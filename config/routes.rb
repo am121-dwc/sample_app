@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get 'lists/:id' => 'lists#show', as: 'list'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.htmlp
   patch 'lists/:id' => 'lists#update', as: 'update_list'
+  delete 'lists/:id' => 'lists#destroy', as: 'destroy_list'
 end
