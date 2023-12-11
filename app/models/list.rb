@@ -7,4 +7,3 @@ class List < ApplicationRecord
 
 
 end
-
